@@ -1,4 +1,3 @@
-# Mini ATM System Portfolio
 file = open("pin.txt", "r")
 pin = file.read().strip()
 file.close()
