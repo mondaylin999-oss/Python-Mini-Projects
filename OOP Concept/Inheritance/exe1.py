@@ -3,7 +3,7 @@ class Animal:
         self.name = name
 
     def sound(self):
-        return f'{self.name} makes a sound'
+        return f'{self.name} makes a sound.'
 
 class Dog(Animal):
     bark = 'woof! woof!! woof!!!'
