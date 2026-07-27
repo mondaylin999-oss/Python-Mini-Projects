@@ -44,7 +44,7 @@ class NewsAggregator:
     def display_news(self, category_name, headlines):
         """Formats and prints the headlines to the terminal."""
         print("\n" + "=" * 60)
-        print(f"📰 TOP HEADLINES: {category_name.upper()}")
+        print(f" TOP HEADLINES: {category_name.upper()}")
         print("=" * 60)
 
         if not headlines:
@@ -53,7 +53,7 @@ class NewsAggregator:
 
         for index, article in enumerate(headlines, start=1):
             print(f"\n{index}. {article['title']}")
-            print(f"   🔗 Link: {article['link']}")
+            print(f"    Link: {article['link']}")
             
         print("\n" + "=" * 60)
 
